@@ -128,5 +128,79 @@ public class StudentViewModelController : Controller
     }
 
 
+    [HttpGet]
+    public IActionResult Details(string id)
+    {
+        try
+        {
+            StudentViewModel student = new StudentViewModel();
+            HttpResponseMessage response = client.GetAsync(client.BaseAddress + $"/Students/{id}").Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                string data = response.Content.ReadAsStringAsync().Result;
+                student = JsonConvert.DeserializeObject<StudentViewModel>(data);
+
+            }
+            return View(student);
+        }
+        catch (Exception ex)
+        {
+            TempData["errorMassage"] = ex.Message;
+            return View();
+
+        }
+
+    }
+
+
+    [HttpGet]
+    public IActionResult Delete(string id)
+    {
+        try
+        {
+            StudentViewModel student = new StudentViewModel();
+            HttpResponseMessage response = client.GetAsync(client.BaseAddress + $"/Students/{id}").Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                string data = response.Content.ReadAsStringAsync().Result;
+                student = JsonConvert.DeserializeObject<StudentViewModel>(data);
+
+            }
+            return View(student);
+        }
+        catch (Exception ex)
+        {
+            TempData["errorMassage"] = ex.Message;
+            return View();
+
+        }
+
+    }
+
+
+    [HttpPost]
+    public IActionResult DeleteConfirmed(string id)
+    {
+        try
+        {
+            HttpResponseMessage response = client.DeleteAsync(client.BaseAddress + $"/Students/{id}").Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["successMessage"] = "Student deleted successfully";
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        catch(Exception ex)
+        {
+            TempData["errorMessage"] = ex.Message;
+            return View();
+        }
+       
+    }
+
 }
 

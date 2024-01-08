@@ -227,3 +227,4 @@ C:\Program Files\installed apps\Linux comanned\crzylearning\DotNet Apps\StudentM
 C:\Program Files\installed apps\Linux comanned\crzylearning\DotNet Apps\StudentManagmrnt\obj\Debug\net8.0\StudentManagmrnt.pdb
 C:\Program Files\installed apps\Linux comanned\crzylearning\DotNet Apps\StudentManagmrnt\obj\Debug\net8.0\StudentManagmrnt.genruntimeconfig.cache
 C:\Program Files\installed apps\Linux comanned\crzylearning\DotNet Apps\StudentManagmrnt\obj\Debug\net8.0\ref\StudentManagmrnt.dll
+C:\Program Files\installed apps\Linux comanned\crzylearning\DotNet Apps\StudentManagmrnt\obj\Debug\net8.0\StudentManagmrnt.sourcelink.json

@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZpZXdNb2RlbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Program Files/installed apps/Linux comanned/crzylearning/DotNet Apps/StudentManagmrnt/Views/StudentViewModel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZpZXdNb2RlbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/installed apps/Linux comanned/crzylearning/DotNet Apps/StudentManagmrnt/Views/StudentViewModel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZpZXdNb2RlbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Program Files/installed apps/Linux comanned/crzylearning/DotNet Apps/StudentManagmrnt/Views/StudentViewModel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZpZXdNb2RlbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
